@@ -55,7 +55,7 @@ class MoviesDetailViewController: UIViewController {
         nameLabel.text = "\(model.name)"
         countryLabel.text = "\(model.country)\(year)"
         rateLabel.text = "\(model.getRating())"
-        
+        rateLabel.backgroundColor = .white.withAlphaComponent(0.2)
         trailerButton.isHidden = model.youtubeLink.isEmpty
         
         let genres = model.genre.joined(separator: ", ")
