@@ -89,6 +89,7 @@ class MoviesViewController: UIViewController {
     }
     
     @objc private func filtersTapped() {
+        searchBar.endEditing(true)
         let tuples: [(String, String)] = [
             (FilterType.popularityDescending.title, FilterType.popularityDescending.title),
             (FilterType.popularityAscending.title, FilterType.popularityAscending.title),
@@ -130,6 +131,7 @@ extension MoviesViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let model = viewModel.moviesList[indexPath.row]
         viewModel.showDetail(with: model.id)
+        searchBar.endEditing(true)
     }
 }
 

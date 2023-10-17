@@ -25,6 +25,10 @@ extension MoviesDTO {
         let calendar = Calendar.current
         let year = calendar.component(.year, from: date)
         return "\(year)"
-        
+    }
+    
+    func getRating() -> String {
+        let truncatedNumber = Double(String(format: "%.1f", rating))!
+        return "\(truncatedNumber)"
     }
 }

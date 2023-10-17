@@ -31,7 +31,7 @@ class MoviesCollectionViewCell: UICollectionViewCell {
        
         let year = model.getYearFromDate().isEmpty ? "" : ", \(model.getYearFromDate())"
         titleLabel.text = "\(model.title)\(year)"
-        ratingLabel.text = "\(model.rating)"
+        ratingLabel.text = model.getRating()
         
         let genres = model.genre.joined(separator: ", ")
         genresLabel.isHidden = genres.isEmpty
