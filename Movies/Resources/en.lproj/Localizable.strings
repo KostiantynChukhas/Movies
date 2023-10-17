@@ -1,0 +1,20 @@
+
+
+"cancel" = "Cancel";
+"back" = "Back";
+"internet_error" = "You are offline. Please, enable your Wi-Fi or connect using cellular data.";
+
+// Movies
+"movies_title" = "Popular Movies";
+"movies_search_placeholder" = "Search movies";
+
+// Movies Detail
+"movies_detail_title" = "Detail Movie";
+
+//FilterType
+"filter_popularityDescending" = "Popularity Descending";
+"filter_popularityAscending" = "Popularity Ascending";
+"filter_ratingDescending" = "Rating Descending";
+"filter_ratingAscending" = "Rating Ascending";
+"filter_releaseDateDescending" = "Release Date Descending";
+"filter_releaseDateAscending" = "Release Date Ascending";

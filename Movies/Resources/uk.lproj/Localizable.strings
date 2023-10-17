@@ -1,0 +1,18 @@
+"cancel" = "Скасувати";
+"back" = "Назад";
+"internet_error" = "Ви в режимі офлайн. Увімкніть Wi-Fi або підключіться за допомогою мобільних даних.";
+
+// Movies
+"movies_title" = "Популярні фільми";
+"movies_search_placeholder" = "Пошук фільмів";
+
+// Movies Detail
+"movies_detail_title" = "Деталі фільму";
+
+//FilterType
+"filter_popularityDescending" = "Популярність у порядку спадання";
+"filter_popularityAscending" = "Популярність у порядку зростання";
+"filter_ratingDescending" = "Рейтинг у порядку спадання";
+"filter_ratingAscending" = "Рейтинг у порядку зростання";
+"filter_releaseDateDescending" = "Дата випуску у порядку спадання";
+"filter_releaseDateAscending" = "Дата випуску у порядку зростання";
